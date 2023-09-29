@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guided Meditation</title>
+    <link rel="stylesheet" href="guided.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div><img src="img/medit.png" alt="Logo_img"></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meditation.html">Meditation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <nav>
+    <div class="navigation">
+        <img src="/img/medit.png" alt="Logo_img">
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meditation.html">Meditation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="main">
+        <div class="audios">
+        <audio id="a" controls>
+            <source src="Audios/Guided/3-Minute Guided Meditation #meditation #relaxing #relax.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" class="b" controls> 
+            <source src="Audios/Guided/5 Minute Mindfulness Meditation.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/Guided/SaveTube.io - A 10-Minute Journey to Inner Peace _ Guided Meditation (128 kbps).mp3" type="audio/mp3">
+        </audio>
+    <!-- footer -->
+    <div class="footer">
+        <footer>
+            <img src="img/medit.png">
+            <div class="links">
+                <a href="meditation.html">Meditation</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="social">
+                <img src="img/instagram.png">
+                <img src="img/facebook.png">
+                <img src="img/youtube.png">
+            </div>
+        </footer>
+    </div>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

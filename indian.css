@@ -1,0 +1,41 @@
+
+/* main */
+.audios{
+    padding: 30px;
+    align-items: center;
+    margin: 50px;
+    margin-left: 13%;
+}
+.main #a{
+    background-color: #06D6A0;
+    padding: 150px 10px 10px 10px;
+    border-radius: 30px;
+    margin: 20px;
+    color: red;
+    background-image: url(img/road-g2ddb36227_1920.jpg);   
+}
+.main #a{
+    background-size: right;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+/* mobile optimization */
+@media (max-width:500px){
+    .audios{
+        padding: 10px;
+        align-items: center;
+    }
+    .main #a{
+        background-color: #06D6A0;
+        padding: 150px 10px 10px 10px;
+        border-radius: 30px;
+        color: red;
+        background-image: url(img/road-g2ddb36227_1920.jpg);   
+    }
+    /* .main #a{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    } */
+}

@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Meditation</title>
+    <link rel="stylesheet" href="japanese.css   ">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+   <!-- Navigation -->
+   <nav class="navbar">
+    <div><img src="img/medit.png" alt="Logo_img"></div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meditation.html">Meditation</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+
+</nav>
+<!-- main -->
+    <div class="main">
+        <div class="audios">
+        <audio id="a" controls>
+            <source src="Audios/Japanese/10 Minute Crystal Singing Bowl Meditation  Sound Healing For Relaxation & Stress Relief.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" class="b" controls> 
+            <source src="Audios/Japanese/10 Minute Timer with Relaxing Japanese Meditation Music.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/Japanese/10 Minute Zen Meditation.mp3c" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/Japanese/Bohdi Sanders - Japanese Garden Meditation.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/Japanese/X2Download.app - Temple bell sound of 3 Orin Japanese bells_singing bowls for mindfulness meditation and relaxation (128 kbps).mp3" type="audio/mp3">
+        </audio>
+        
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <footer>
+            <img src="img/medit.png">
+            <div class="links">
+                <a href="meditation.html">Meditation</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="social">
+                <img src="img/instagram.png">
+                <img src="img/facebook.png">
+                <img src="img/youtube.png">
+            </div>
+        </footer>
+    </div>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

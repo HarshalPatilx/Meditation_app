@@ -1,0 +1,67 @@
+
+
+/* main */
+.audios {
+    padding: 30px;
+    align-items: center;
+    margin: 50px;
+    margin-left: 13%;
+}
+
+.main #a {
+    background-color: #06D6A0;
+    padding: 150px 10px 10px 10px;
+    border-radius: 30px;
+    margin: 20px;
+    color: red;
+    background-image: url(img/try01.jpg);
+}
+
+.main #a {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+
+
+/* Mobile Optimization */
+
+@media (max-width: 500px) {
+
+    /* navigation */
+    /* .nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 5px;
+        font-weight: bold;
+    } */
+    /* main */
+    .main{
+        padding: 10px 0px 10 0px;
+        margin: 0px;
+    }
+    .audios {
+        padding: 3px;
+        align-items: center;
+        /* margin: px;
+        margin-left: 13%; */
+    }
+
+    .main #a {
+        background-color: #06D6A0;
+        padding: 150px 10px 10px 10px;
+        border-radius: 30px;
+        margin: 20px;
+        color: red;
+        background-image: url(img/try01.jpg);
+    }
+
+    .main #a {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+
+}

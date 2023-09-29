@@ -1,0 +1,76 @@
+/* Navigation */
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+    background-color: #06D6A0;
+}
+.navigation img{
+    width: 100px;
+}
+.nav{
+    display: flex;
+    margin-left: 55%;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px; */
+}
+.nav ul li{
+    list-style: none;
+    /* padding: 20px 0px 10px 60px; */
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav ul li a:hover{
+    color: white;
+    transition-duration: .4s;
+}
+/* main */
+.audios{
+    padding: 30px;
+    align-items: center;
+    margin: 50px;
+    margin-left: 13%;
+}
+.main #a{
+    background-color: #06D6A0;
+    padding: 150px 10px 10px 10px;
+    border-radius: 30px;
+    margin: 20px;
+    color: red;
+    background-image: url(img/pexels-koolshooters-6976597.jpg);   
+}
+.main #a{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+/* mobile optimization */
+@media (max-width:500px){
+    .audios{
+        padding: 10px;
+        align-items: center;
+    }
+    .main #a{
+        background-color: #06D6A0;
+        padding: 150px 10px 10px 10px;
+        border-radius: 30px;
+        color: red;
+        background-image: url(img/pexels-koolshooters-6976597.jpg);   
+    }
+    .main #a{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+}

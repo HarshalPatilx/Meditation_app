@@ -1,0 +1,319 @@
+
+/* Container1 */
+
+.container1 {
+    padding: 200px 42% 100px 200px;
+    display: flex;
+}
+
+.container1 h2 {
+    font-size: 70px;
+    padding: 5px;
+    color: #06D6A0;
+}
+
+.container1 h4 {
+    font-size: 25px;
+    padding: 0px 0px 10px 5px;
+}
+
+.container1 p {
+    font-size: 20px;
+    padding: 0px 0px 0px 5px;
+}
+.cont1img img {
+    width: 600px;
+    position: absolute;
+    top: 26%;
+}
+/* Container2 */
+.container2 {
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.container2 h1 {
+    padding: 70px;
+    font-size: 40px;
+    color: #06D6A0;
+}
+
+.cont2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cont {
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.cont img {
+    width: 200px;
+}
+
+.cont h3 {
+    font-size: 22px;
+    padding: 20px;
+}
+
+
+/* Container3 */
+
+.container3 {
+    padding: 100px 100px 100px;
+    text-align: center;
+}
+
+.container3 h1 {
+    color: #06D6A0;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.container3 button {
+    color: black;
+    background: #06D6A0;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container3 button a {
+    text-decoration: none;
+    color: black;
+}
+
+.catmed {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catmed #a {
+    background-image: url(img/meditation-gaf8ba806c_1920.jpg);
+    background-position-x: center;
+    background-size: contain;
+    padding: 150px 50px 5px 50px;
+}
+
+.catmed #b {
+    background-image: url(img/girl-g7783a886c_1920.jpg);
+    background-position: left;
+    background-size: cover;
+    padding: 150px 80px 5px 70px;
+}
+
+.catmed #c {
+    background-image: url(img/singing-bowl-g59e5f43d1_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 50px 5px 50px;
+}
+
+.med0 {
+    border: 1px solid;
+    border-radius: 30px;
+    justify-content: space-evenly;
+    padding: 150px 50px 5px 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.med0 h2 {
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #EF476F;
+    color: white;
+}
+
+.container3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+footer img {
+    font-size: 50px;
+}
+
+@media (max-width: 500px) {
+
+    /* Navigation */
+    .navigation {
+        display: flex;
+        background-color: #06D6A0;
+    }
+
+    .navigation img {
+        width: 80px;
+    }
+
+    .nav {
+        display: flex;
+        margin-left: -9%;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .nav ul li {
+        list-style: none;
+        padding: 20px 0px 10px 20px;
+    }
+
+    .nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /* container01 */
+    .container1 {
+        padding: 20px 20px 220px 20px;
+        display: flex;
+    }
+
+    .container1 h2 {
+        font-size: 40px;
+        padding: 5px;
+        padding-top: 35px;
+        color: #06D6A0;
+    }
+
+    .container1 h4 {
+        font-size: 22px;
+        padding: 0px 0px 10px 5px;
+    }
+
+    .container1 p {
+        font-size: 19px;
+        padding: 0px 0px 0px 5px;
+    }
+
+    .cont1img img {
+        width: 250px;
+        position: absolute;
+        top: 42%;
+        left: 18%;
+    }
+
+    /* Container2 */
+    .container2 {
+        text-align: center;
+        padding: 20px 10px 30px 10px;
+    }
+
+    .container2 h1 {
+        padding: 20px 0px 10px 0px;
+        font-size: 35px;
+        color: #06D6A0;
+    }
+
+    .cont2 {
+        text-align: center;
+        display: inline;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .cont {
+        padding: 10px;
+        background-color: white;
+        border-radius: 30px;
+        margin: 5px;
+    }
+
+    .cont img {
+        width: 90px;
+    }
+
+    .cont h3 {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    /* container 03 */
+    .container3 {
+        padding: 50px 10px 100px 10px;
+        text-align: center;
+    }
+    
+    .container3 h1 {
+        color: #06D6A0;
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+    
+    .container3 button {
+        color: black;
+        background: #06D6A0;
+        border-radius: 10px;
+        margin-top: 50px;
+        padding: 10px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .container3 button a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .catmed {
+        display: inline;
+        justify-content: space-evenly;
+    }
+    
+    .catmed #a {
+        background-image: url(img/meditation-gaf8ba806c_1920.jpg);
+        background-position-x: center;
+        background-size: contain;
+        padding: 80px 30px 5px 30px;
+    }
+    
+    .catmed #b {
+        background-image: url(img/girl-g7783a886c_1920.jpg);
+        background-position: left;
+        background-size: cover;
+        padding: 80px 30px 5px 30px;
+    }
+    
+    .catmed #c {
+        background-image: url(img/singing-bowl-g59e5f43d1_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 80px 30px 5px 30px;
+    }
+    
+    .med0 {
+        border: 1px solid;
+        border-radius: 30px;
+        justify-content: space-evenly;
+        padding: 150px 50px 5px 50px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    
+    .med0 h2 {
+        font-size: 20px ;
+        padding: 5px 2px 5px 2px;
+        border-radius: 30px;
+        background-color: #EF476F;
+        color: white;
+    }
+    
+    .container3 a {
+        text-decoration: none;
+        color: white;
+    }
+}

@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedIt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div><img src="img/medit.png" alt="Logo_img"></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meditation.html">Meditation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+    </nav>
+   
+    <!-- Container1 -->
+    <div class="container1">
+        <div class="cont1head">
+            <h2>Meditation App</h2>
+            <h4>Learn and do Meditation with best Practices</h4>
+            <p>This application helps Beginners to Meditation. We provide diffrent types of audios for that</p>
+        </div>
+        <div class="cont1img">
+            <img src="img/med1.png">
+        </div>
+    </div>
+
+    <!-- Container 2 -->
+    <div class="container2">
+        <h1>Benefits of Meditation</h1>
+        <div class="cont2">
+            <div class="cont">
+                <h3>Increase Self Awarenes</h3>
+                <img src="img/self-awareness.png">
+            </div>
+            <div class="cont">
+                <h3>Manage your stress</h3>
+                <img src="img/frustrated.png">
+            </div>
+            <div class="cont">
+                <h3>Focusing on the present</h3>
+                <img src="img/focus (1).png">
+            </div>
+            <div class="cont">
+                <h3>Reducing negative emotions</h3>
+                <img src="img/emotion.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- Container3 -->
+    <div class="container3">
+        <h1>Practice Meditation</h1>
+        <div class="catmed">
+            <div class="med0" id="a">
+                <h2><a href="guided.html">Guided Meditation</a></h2>
+            </div>
+            <div class="med0" id="b">
+                <h2><a href="sleeping.html">Sleep Music</a></h2>
+            </div>
+            <div class="med0" id="c">
+                <h2><a href="japanese.html">Japanise Meditation</a></h2>
+            </div>
+            <!-- <div class="med0" id="4">
+            <h2>India Meditation</h2>
+        </div>
+        <div class="med0" id="5">
+            <h2>Fluit Music</h2>
+        </div> -->
+        </div>
+        <a href="meditation.html"><button> View More</button></a>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <footer>
+            <img src="img/medit.png">
+            <div class="links">
+                <a href="meditation.html">Meditation</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="social">
+                <img src="img/instagram.png">
+                <img src="img/facebook.png">
+                <img src="img/youtube.png">
+            </div>
+        </footer>
+    </div>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>

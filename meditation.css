@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Container1 */
+
+.container3{    
+    padding: 100px 100px 100px;
+    text-align: center;
+}
+.container3 h2{
+    padding: 0px;
+    font-size: 20px;
+}
+.container3 h1{
+    color: #06D6A0;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.container3 button{
+    color: black;
+    background: #06D6A0;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container3 button a{
+    text-decoration: none;
+    color: black;
+}
+.catmed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.catmed #a{
+    background-image: url(img/meditation-gaf8ba806c_1920.jpg);
+    background-position-x: center;
+    background-size: contain;
+    padding: 150px 50px 5px 50px;
+}
+.catmed #b{
+    background-image: url(img/girl-g7783a886c_1920.jpg);
+    background-position: left;
+    background-size: cover;
+    padding: 150px 80px 5px 70px;
+}
+.catmed #c{
+    background-image: url(img/singing-bowl-g59e5f43d1_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 45px 5px 45px;
+}
+.catmed #d{
+    background-image: url(img/hare-krishna-g1ec8c1a90_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 60px 5px 60px;
+}
+.catmed #e{
+    background-image: url(img/flute-g4764c3627_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 80px 5px 80px;
+}
+.catmed #f{
+    background-image: url(img/road-g2ddb36227_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 70px 5px 70px;
+}
+.med0{
+    border: 1px solid;
+    border-radius: 30px;
+    /* justify-content: space-evenly; */
+    /* padding: 30% 50px 5px 50px; */
+    margin: 20px;
+    cursor: pointer;
+}
+.med0 h2{
+    padding: 7px;
+    border-radius: 30px;
+    background-color: #EF476F;
+    color: white;
+}
+.container3 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Mobile Optimization */
+@media (max-width:500){
+    .container3{    
+        padding: 100px 10px 30px;
+        text-align: center;
+    }
+    .container3 h1{
+        color: #06D6A0;
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    .container3 button{
+        color: black;
+        background: #06D6A0;
+        border-radius: 10px;
+        margin-top: 50px;
+        padding: 10px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .container3 button a{
+        text-decoration: none;
+        color: black;
+    }
+    .catmed{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .catmed #a{
+        background-image: url(img/meditation-gaf8ba806c_1920.jpg);
+        background-position-x: center;
+        background-size: contain;
+        padding: 150px 50px 5px 50px;
+    }
+    .catmed #b{
+        background-image: url(img/girl-g7783a886c_1920.jpg);
+        background-position: left;
+        background-size: cover;
+        padding: 150px 80px 5px 70px;
+    }
+    .catmed #c{
+        background-image: url(img/singing-bowl-g59e5f43d1_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 150px 45px 5px 45px;
+    }
+    .catmed #d{
+        background-image: url(img/hare-krishna-g1ec8c1a90_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 150px 50px 5px 50px;
+    }
+    .catmed #e{
+        background-image: url(img/flute-g4764c3627_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 150px 80px 5px 80px;
+    }
+    .catmed #f{
+        background-image: url(img/road-g2ddb36227_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 150px 70px 5px 70px;
+    }
+}

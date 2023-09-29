@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Sounds</title>
+    <link rel="stylesheet" href="nature.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+   <!-- Navigation -->
+   <nav class="navbar">
+    <div><img src="img/medit.png" alt="Logo_img"></div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meditation.html">Meditation</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+
+</nav>
+    <div class="main">
+        <div class="audios">
+        <audio id="a" controls>
+            <source src="Audios/" type="audio/mp3">
+        </audio>
+        <audio id="a" class="b" controls> 
+            <source src="Audios/nature/10 Minute Deep Meditation Music  Relax Mind Body, Inner Peace.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/nature/10 MINUTES- INDIAN SITAR MEDITATION MUSIC.  MEDITATION & RELAXATION MUSIC..mp3 3.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/nature/background-relax-music-for-vlog-video-1-minute-meditation-light-music-156360 (1).mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/nature/background-relax-music-for-vlog-video-1-minute-meditation-light-music-156360 (2).mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/nature/background-relax-music-for-vlog-video-1-minute-meditation-light-music-156360.mp3" type="audio/mp3">
+        </audio>
+        <audio id="a" controls> 
+            <source src="Audios/nature/background-relax-music-for-vlog-video-1-minute-meditation-light-music-156360 (3).mp3" type="audio/mp3">
+        </audio>
+    </div>
+    </div>
+     <!-- footer -->
+     <div class="footer">
+        <footer>
+            <img src="img/medit.png">
+            <div class="links">
+                <a href="meditation.html">Meditation</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="social">
+                <img src="img/instagram.png">
+                <img src="img/facebook.png">
+                <img src="img/youtube.png">
+            </div>
+        </footer>
+    </div>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation</title>
+    <link rel="stylesheet" href="meditation.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div><img src="img/medit.png" alt="Logo_img"></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meditation.html">Meditation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+    </nav>
+   
+    <!-- Container1 -->
+    <div class="container3">
+        <h1>Practice Meditation</h1>
+        <div class="catmed">
+            <div class="med0" id="a">
+                <h2><a href="guided.html">Guided Meditation</a></h2>
+            </div>
+            <div class="med0" id="b">
+                <h2><a href="sleeping.html">Sleep Music</a></h2>
+            </div>
+            <div class="med0" id="c">
+                <h2><a href="japanese.html">Japanese Meditation</a></h2>
+            </div>
+            <div class="med0" id="d">
+            <h2><a href="indian.html">India Meditation</a></h2>
+        </div>
+        <div class="med0" id="e">
+            <h2><a href="fluit.html">Fluit Music</a></h2>
+        </div>
+        <div class="med0" id="f">
+            <h2><a href="nature.html">Nature Sounds</a></h2>
+        </div> 
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <footer>
+            <img src="img/medit.png">
+            <div class="links">
+                <a href="meditation.html">Meditation</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="social">
+                <img src="img/instagram.png">
+                <img src="img/facebook.png">
+                <img src="img/youtube.png">
+            </div>
+        </footer>
+    </div>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-Button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
